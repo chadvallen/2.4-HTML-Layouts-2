@@ -1,0 +1,206 @@
+body {
+  
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background: rgb(0,0,0);
+    color: white;
+
+    
+}
+
+header > div {
+    max-width: 1000px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+}
+
+header ul a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+header img {
+    height: 60px;
+}
+
+header p {
+    font-size: 24px;
+}
+
+.search {
+    width: 30%;
+    height: 30px;
+    background: rgb(61, 64, 68);
+    padding: 7px 5px;
+    border-radius: 3px;
+    color: rgb(137, 139, 142);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+}
+
+.bell {
+    height: 30px;
+}
+
+.icon {
+    height: 30px;
+    border-radius: 3px;
+}
+
+main  {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar {
+    justify-content: flex-start;
+    width: 250px;
+    margin-right: 20px;
+    
+}
+
+.sidebar h2 {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.sidebar h4 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.sidebar button {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    background: lightgray;
+    font-size: 14px;
+}
+
+.sidebar p {
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 20px;
+    border-top: 1px solid lightgray;
+}
+
+
+
+
+
+
+.mainbar {
+    flex-direction: column;
+    width: 100%;
+}
+
+
+main > div > img{
+    height: 220px;
+}
+
+.mainbar h3 {
+    font-size: 18px;
+    
+}
+
+.mainbar > section {
+    background: white;
+    height: 40px;
+    border-bottom: 1px solid lightgray;
+    margin: 10px 0;
+    
+}
+
+.mainbar > section > ul {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.mainbar > section > ul > li > a {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 30px;
+
+   
+}
+
+.box-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.box {
+    height: 150px;
+    flex-basis: 350px;
+    border: 1px solid lightgray;
+    margin: 10px;
+   
+}
+
+.mainbar > img {
+    height: 200px;
+    margin-left: 20px;
+}
+
+img .activity {
+    height: 200px;
+    margin-left: 20px;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+}
+
+footer div {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+footer div ul {
+    display: flex;
+}
+
+
+footer div ul li a {
+    color: blue;
+   margin-left: 10px;
+   text-decoration: none;
+    
+}
+
+footer img {
+    height: 40px;
+}
